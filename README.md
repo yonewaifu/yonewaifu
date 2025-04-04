@@ -1,16 +1,107 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html>
 
-<!--
-**yonewaifu/yonewaifu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<head>
+  
+  <title>My top friends!</title>
+    
+    
+    <style>
 
-Here are some ideas to get you started:
+  body {
+    width: 85%;
+    margin: 1;
+    background-color: rgb(228, 184, 213);
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  h1 {
+    text-align: left;
+  }
+
+  img {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #top-8-wrapper {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+   display: center;
+  }
+
+  .friend-card {
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+  }
+
+  .friend-name {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  
+  }
+  </style>
+
+</head>
+
+<body>
+
+    
+  <div id="top-8-wrapper">
+      <h1>My top friends! <font></font></h1>
+      <div class="top-8-row">
+        
+    </div>
+
+    <div class="friend-card">
+      <h2 class="friend-name">Róża </h2>
+      <img src="avatar.png" alt="rose avatar" style height="250px" width="250">
+
+      </div>
+
+    <div class="friend-card">
+      <h2 class="friend-name">Michał</h2>
+      <img src="avatar (3).png" alt="gurs michal" style height="250px" width="250">
+    
+      </div>
+
+    <div class="friend-card">
+      <h2 class="friend-name">Lolek</h2>
+      <img src="avatar (2).png" alt="lolek furry"style height="250px" width="250">
+
+      </div>
+
+    <div class="friend-card">
+      <h2 class="friend-name">Dariusz</h2>
+      <img src="avatar (1).png" alt="dariusz vape" style height="250px" width="250">
+      </div>
+
+    <div class="top-8-row">
+    <div class="friend-card">
+        <h2 class="friend-name"> Nikodem</h2>
+        <img src="https://i.pinimg.com/736x/41/f3/dd/41f3dd03360bfaf3ee69527511276274.jpg" alt="dariusz vape" style height="250px" width="250">
+        </div>
+
+    <div class="friend-card">
+            <h2 class="friend-name"> Ania</h2>
+            <img src="avatar (4).png" alt="dariusz vape" style height="250px" width="250">
+            </div>
+    
+   <div class="friend-card">
+            <h2 class="friend-name"> Lucas</h2>
+                <img src="lucas.jpg" alt="dariusz vape" style height="250px" width="250">
+                </div>
+    
+      <div class="friend-card">
+             <h2 class="friend-name"> Luna</h2>
+             <img src="luna.jpg" alt="dariusz vape" style height="250px" width="250">
+             </div>
+
+    </div>
+</body>
+
+</html>
